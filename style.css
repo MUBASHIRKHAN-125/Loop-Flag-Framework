@@ -1,0 +1,81 @@
+body{
+    font-family: Arial Rounded MT;
+    box-sizing: border-box;
+    background-image: linear-gradient(to left bottom, #2E3192 , #1BFFFF);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+#card{
+ color: #000000;
+ font-size: 20px;
+ text-decoration: underline;
+ text-decoration-color: #3b1a31;
+}
+.maincontainer{
+    display: flex;
+    align-items: center;    
+    flex-direction: column;
+}
+.containerinp{
+    margin-top: 40px;
+    border: 5px solid #a5267e;
+    min-height: 220px;
+    padding:15px;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+.containerinp:hover{
+    box-shadow: 1px 5px 10px white;
+}
+.head{
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 5px;
+}
+.but{
+    text-align: center;
+    padding-top:26px; 
+}
+.but button:hover{
+    transform: scale(1.2);
+    box-shadow: 1px 5px 10px black;
+}
+.but button{
+    font-size: 15px;
+    border-radius: 4px;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+.res{
+    text-align: center;
+    padding-top:26px;
+}
+.res button{
+    font-size: 15px;
+    border-radius: 4px;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+.res button:hover{
+    transform: scale(1.2);
+    box-shadow: 1px 5px 10px black;
+}
+.uiInput input{
+border-radius: 4px;
+margin-left: 12px;
+padding: 4px;
+border: 2px solid green;
+}
+.uiInput input::placeholder{
+    text-align: center;
+    color: grey;
+}
