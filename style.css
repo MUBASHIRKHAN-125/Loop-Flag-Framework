@@ -22,6 +22,10 @@ body{
     border: 5px solid #a5267e;
     min-height: 220px;
     padding:15px;
+    background-image: linear-gradient(to bottom right,  #FDFCFB, #E2D1C3 );
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
     transition-property: all;
     transition-duration: 0.3s;
     transition-delay: 0.1s;
