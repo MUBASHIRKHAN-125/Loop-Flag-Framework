@@ -4,7 +4,7 @@ function button() {
     let userCity = document.getElementById("Inputid").value;
 
     let myCard = "City did not  Matched!";
-    let mySecondCard = "City is Matched! ";
+    let mySecondCard = "City is Matched!";
 
    ///flag khte hai ese///
     let cityMatched = false;

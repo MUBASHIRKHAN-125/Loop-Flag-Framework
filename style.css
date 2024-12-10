@@ -82,4 +82,5 @@ border: 2px solid green;
 .uiInput input::placeholder{
     text-align: center;
     color: grey;
+    font-style: italic;
 }
