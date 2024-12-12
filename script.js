@@ -28,13 +28,9 @@ function reset(){
     document.getElementById("card").innerText = myCard = ""; 
     document.getElementById("card").innerText = mySecondCard = "";
 } 
-// document.addEventListener("DOMContentLoaded", function() {
-//     const exampleText = ['City Match Checker:','MK Writer'];
-//     const exampleTyping = new AutoTyping('.head', exampleText,{
-//         typeSpeed: 50,
-//         deleteSpeed: 50,
-//         waitBeforeDelete: 2000,
-//         waitBetweenWords: 500,
-//     });
-//     exampleTyping.start()
-// });
+  var typed = new Typed('.element', {
+    strings: ["Made by Mubashir Khan!" , "MK Writer!"],
+    typeSpeed: 80,
+    backSpeed: 50,
+    loop: true
+  });
